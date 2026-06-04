@@ -1,0 +1,4 @@
+case_id,split,frame_id,risk_indicator,reason_field,weather,time_of_day,road_condition,scene_density_description,c_weather,c_light,c_road,c_density,context_score_c,distance_m,expected_mu_p,expected_nu_p,expected_pi_p,expected_zeta_p,expected_M,reported_decision
+1,val,002182,1,"Vehicle at 6.5m",cloudy,day,normal road,preprocessed density component from scene-complexity counts,0.45,0.00,0.00,0.6175,0.281,6.5,0.701,0.250,0.049,0.000,0.703,decisive braking
+2,val,000325,0,"No risk label",rain,night,wet road,dense vulnerable scene,0.90,1.00,0.70,0.5500,0.815,,0.345,0.646,0.009,0.000,0.345,cautious monitoring
+3,test,002044,1,"Vehicle at -2.3m",rain,day,wet road,preprocessed density component from scene-complexity counts,0.90,0.00,0.70,0.7650,0.608,-2.3,0.961,0.202,0.000,0.163,0.948,decisive braking
